@@ -1,0 +1,27 @@
+# Workit Health
+
+> Workit Health is a 100% virtual addiction-treatment provider delivering telehealth care for opioid use disorder, alcohol use disorder, and kratom/7-OH dependence via mobile app and video visits with licensed clinicians, including FDA-approved medications (Suboxone, naltrexone), recovery groups, and care-team messaging. Backed by Insight Partners and Lux Capital. No public developer API, SDKs, or API documentation are published as of 2026-07-21.
+
+## Company
+
+- [Website](https://www.workithealth.com/): Virtual addiction treatment — opioids, alcohol, kratom & 7-OH
+- [Mission](https://www.workithealth.com/mission/): About Workit Health
+- [Workit Labs — Research](https://www.workithealth.com/research/): Published outcomes research
+- [Blog](https://www.workithealth.com/blog/): Recovery and treatment articles
+- [Careers](https://www.workithealth.com/careers/): Open roles
+- [Insurance & Pricing](https://www.workithealth.com/insurance/): Coverage and cost
+- [Help Center](https://help.workithealth.com/hc/en-us): Member support (Zendesk)
+- [Member App Login](https://app.workithealth.com/signin): Member sign-in
+
+## Legal
+
+- [Privacy Policy](https://www.workithealth.com/privacy-policy/)
+- [HIPAA Notice of Privacy Practices](https://www.workithealth.com/hipaa-notice/)
+- [Terms of Service](https://www.workithealth.com/terms-of-service/)
+
+## API Evangelist profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/workit-health/refs/heads/main/apis.yml): APIs.json profile for Workit Health
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/workit-health/refs/heads/main/security/workit-health-domain-security.yml): TLS/DNSSEC/SPF/DMARC probe results
+
+<!-- generated: 2026-07-21 | method: generated | source: apis.yml + www.workithealth.com (no provider llms.txt published; /llms.txt -> 404) -->

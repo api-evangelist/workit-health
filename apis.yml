@@ -1,9 +1,26 @@
 aid: workit-health
 name: Workit Health
-description: 'Workit Health is a company surfaced as a portfolio company of insight-partners, lux-capital
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: >-
+  Workit Health is a 100% virtual addiction-treatment provider delivering telehealth
+  care for opioid use disorder, alcohol use disorder, and kratom/7-OH dependence via
+  mobile app and video visits with licensed clinicians. Care includes FDA-approved
+  medications such as Suboxone (buprenorphine/naloxone) and naltrexone, recovery
+  groups, and asynchronous care-team messaging, serving members across fourteen US
+  states. Backed by Insight Partners and Lux Capital. Workit Health publishes no
+  public developer API, SDKs, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/workit-health/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/21694478
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Healthcare
+- Telehealth
+- Addiction Treatment
+- Behavioral Health
+- Digital Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +48,30 @@ maintainers:
 common:
 - type: Website
   url: https://www.workithealth.com/
+- type: Blog
+  url: https://www.workithealth.com/blog/
+- type: Support
+  url: https://help.workithealth.com/hc/en-us
+- type: Pricing
+  url: https://www.workithealth.com/insurance/
+- type: Login
+  url: https://app.workithealth.com/signin
+- type: TermsOfService
+  url: https://www.workithealth.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.workithealth.com/privacy-policy/
+- type: Compliance
+  url: https://www.workithealth.com/hipaa-notice/
+- type: GitHubOrganization
+  url: https://github.com/Workit-Health
+- type: Careers
+  url: https://www.workithealth.com/careers/
+- type: LLMsTxt
+  url: llms/workit-health-llms.txt
+- type: DomainSecurity
+  url: security/workit-health-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: probed
+source: live HTTP probes of workithealth.com hosts
+notes: >-
+  No well-known discovery surface found. www.workithealth.com returns hard 404s
+  for every probed path; app.workithealth.com returns soft-404s (HTTP 200 with an
+  HTML "not found" error page, content-type text/html) for all paths including a
+  nonexistent control path, so its 200s are not real documents. No raw files saved.
+hosts:
+  - host: https://www.workithealth.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /llms.txt
+        status: 404
+  - host: https://app.workithealth.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 200
+        soft_404: true
+      - path: /.well-known/openid-configuration
+        status: 200
+        soft_404: true
